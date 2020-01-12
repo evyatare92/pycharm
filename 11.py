@@ -31,3 +31,5 @@ def check_tip_calculation(my_driver):
 my_driver.get("file://C:/PycharmProjects/DevOps/tip_calc/index.html")
 my_driver.implicitly_wait(5)
 my_driver.find_element_by_id("billamt").send_keys("100" + Keys.TAB + Keys.ARROW_DOWN*3 + Keys.SPACE)
+
+print("1111")
